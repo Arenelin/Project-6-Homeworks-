@@ -1,0 +1,61 @@
+
+// ===========ОБНУЛЕНИЕ==========//
+
+@import "null.scss";
+
+// ===========ОБНУЛЕНИЕ==========//
+
+body{
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0px 0px 0px 50px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   .block1 {
+   max-width: 612px;
+   line-height: 25px;
+   text-indent: 34px;
+   padding: 50px 0px 0px 0px;
+   margin: 0px 0px 33px 0px;
+   }
+   .line1{
+   padding: 0px 0px 0px 50px;
+   }
+   .link{
+   display: block;
+   color: #000000;
+   line-height: 25px;
+   margin: 0px 0px 32px 0px;
+   }
+   .block2{
+      padding: 0px 84px 0px 0px;
+      line-height: 25px;
+      height: 84px;
+      margin: 0px 0px 34px 0px;
+   }
+   .block3{
+      display: inline;
+   }
+   .text1{
+      display: inline-block;
+      padding: 0px 0px 0px 102px;
+      width: 1080px / 1280px *100%;
+      margin: 0px 0px 35px 0px;
+   }
+   .line2{
+      display: inline-block;
+      padding: 0px 40px 0px 76px;
+   }
+   .link2{
+      display: inline-block;
+      padding: 0px 0px 0px 122px;
+      margin: 0px 0px 36px 0px;
+      color: #000000;
+   }
+   .line3{
+      display: block;
+      line-height: 25px;
+      height: 111px;
+      padding: 49px 0px 0px 0px;
+   }
+}
+
