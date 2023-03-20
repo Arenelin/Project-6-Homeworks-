@@ -9,6 +9,8 @@ body{
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+// ==============БЛОК HEAD================//
+
 .wrapper {
    max-width: 841px;
    margin: 0 auto;
@@ -35,3 +37,24 @@ body{
    margin: 0 auto;
 }
 }
+
+// ==============БЛОК HEAD================//
+
+
+// ===========БЛОК SECTION-IMG=====================//
+
+.section-img {
+   background-color: #fff;
+   padding: 10px;
+   margin: 0px 0px 90px 0px;
+   & img{
+      max-width: 100%;
+   }
+}
+
+// ===========БЛОК SECTION-IMG=====================//
+
+
+
+
+

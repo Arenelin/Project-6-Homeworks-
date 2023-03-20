@@ -102,3 +102,12 @@ body {
   max-width: 722px;
   margin: 0 auto;
 }
+
+.section-img {
+  background-color: #fff;
+  padding: 10px;
+  margin: 0px 0px 90px 0px;
+}
+.section-img img {
+  max-width: 100%;
+}
