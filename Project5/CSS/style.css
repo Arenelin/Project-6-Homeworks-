@@ -71,14 +71,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background: #e8e8e8;
+  background: #e8e8e8 url(../img/bg.png) center 165px no-repeat;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .wrapper {
   max-width: 841px;
   margin: 0 auto;
-  background: url(../img/bg.png);
   min-height: 100%;
 }
 
@@ -110,4 +109,108 @@ body {
 }
 .section-img img {
   max-width: 100%;
+}
+
+.bottom {
+  padding: 0px 60px 0px 45px;
+}
+.bottom .text {
+  color: #4e5f66;
+  font-family: "Times New Roman PSMT";
+  font-size: 24px;
+  line-height: 40px;
+}
+.bottom .text p {
+  margin: 0px 0px 45px 0px;
+}
+.bottom .menu {
+  padding: 0px 0px 137px 0px;
+}
+.bottom .list {
+  margin: 0px 0px 45px 0px;
+}
+.bottom .list li {
+  padding: 0px 0px 0px 30px;
+  position: relative;
+}
+.bottom .list li::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 19px;
+  top: 9px;
+  left: 0px;
+  background-image: url(../img/icons/icon1.png);
+}
+.bottom .list li:nth-child(1) {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  color: #273d46;
+  font-size: 20px;
+  line-height: 36px;
+}
+.bottom .list li:nth-child(2) {
+  color: #80b7b3;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 36px;
+}
+.bottom .list li:nth-child(3) {
+  color: #273d46;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.bottom .list li:nth-child(3):hover {
+  color: red;
+}
+.bottom .list li:nth-child(3):hover::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 19px;
+  top: 9px;
+  left: 0px;
+  background-image: url(../img/icons/icon2.png);
+}
+.bottom .list li span {
+  color: #aeb5b7;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: line-through;
+}
+.bottom .link {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  height: 44px;
+  background-color: #80b7b3;
+  padding: 0px 23px 0px 28px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+          box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+.bottom .link:hover {
+  background-color: #3a5856;
+}
+.bottom .link:active {
+  background-color: #818181;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 2.2px;
+}
+.bottom .link span {
+  position: relative;
+  padding: 0px 30px 0px 0px;
+}
+.bottom .link span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 21px;
+  height: 14px;
+  background-image: url(../img/icons/arrow.png);
 }
